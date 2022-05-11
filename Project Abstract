@@ -8,5 +8,5 @@
 
 ## Conclusion
 #1.The relationship between OXY and WTI is weak
-#2.Neither linear regression model nor multiple regression model perform well on predicting car sales.
+#2.Neither linear regression model nor multiple regression model perform well on predicting car sales. (Details in multiple regression model summary table's cell)
 #3.In general, electric vehicles sales in 2018 is higher than that of in 2017.
