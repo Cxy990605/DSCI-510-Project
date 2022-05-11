@@ -9,7 +9,18 @@
 
 
 ## How to run the project programs?
-### The whole project is done by a jupyter notebook file
+### 1. The whole project is done by a .ipynb file
 ### Packages Required: pandas, csv, numpy, yfinance, matplotlib.pyplot, requests, beautifulsoup, datetime, seaborn, statsmodels.api, statsmodels.formula.api, mean, stats
 ### The web-scraping csv.files are located in the same folder of jupyternotebook, and hence can be directly read  by pd.read_csv()
-### Github already uploaded the whole dataset, including 3 csv.files and ipynb.files
+### 2. Another version as .py file called scraper.py, which started with the data scraping function
+### Difference from .ipynb: def process_data(data) function to read .csv file
+###                         end with  if __name__ == '__main__': main()
+
+## How to run the scraping file, which includes three web scraping function in one file?
+### command line: python3 scraper.py
+	Wrote car sales data to car_sales.csv
+	Wrote WTI spot price data to wti_spot_price.csv
+	Wrote OXY price data to OXY_stock.csv
+
+## What's more:
+### Github/DSCI-510-Project already uploaded the whole dataset, including 3 .csv files & .ipynb files & .py files
